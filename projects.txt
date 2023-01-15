@@ -1,0 +1,8 @@
+Project 1 - odin-project-library
+https://github.com/andyglover/odin-project-library
+
+Project 2 - odin-project-todolist
+https://github.com/andyglover/odin-project-todolist
+
+Project 3 - odin-rock-paper-scissors
+https://github.com/andyglover/odin-rock-paper-scissors
