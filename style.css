@@ -18,3 +18,7 @@
 .RockON-3-hsla { color: hsla(72, 22, 67, 1); }
 .RockON-4-hsla { color: hsla(180, 83, 24, 1); }
 .RockON-5-hsla { color: hsla(238, 94, 6, 1); }
+
+body {
+    font-family: Arial, sans-serif;
+  }
