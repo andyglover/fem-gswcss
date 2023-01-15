@@ -1,54 +1,26 @@
-/* Color Theme Swatches in Hex */
-.RockON-1-hex {
-  color: #c43302;
-}
-.RockON-2-hex {
-  color: #edaa25;
-}
-.RockON-3-hex {
-  color: #b7bf99;
-}
-.RockON-4-hex {
-  color: #0a7373;
-}
-.RockON-5-hex {
-  color: #010221;
-}
-
-/* Color Theme Swatches in RGBA */
-.RockON-1-rgba {
-  color: rgba(196, 50, 1, 1);
-}
-.RockON-2-rgba {
-  color: rgba(237, 169, 36, 1);
-}
-.RockON-3-rgba {
-  color: rgba(182, 191, 153, 1);
-}
-.RockON-4-rgba {
-  color: rgba(10, 114, 114, 1);
-}
-.RockON-5-rgba {
-  color: rgba(1, 2, 33, 1);
-}
-
-/* Color Theme Swatches in HSLA */
-.RockON-1-hsla {
-  color: hsla(15, 98, 38, 1);
-}
-.RockON-2-hsla {
-  color: hsla(39, 84, 53, 1);
-}
-.RockON-3-hsla {
-  color: hsla(72, 22, 67, 1);
-}
-.RockON-4-hsla {
-  color: hsla(180, 83, 24, 1);
-}
-.RockON-5-hsla {
-  color: hsla(238, 94, 6, 1);
-}
-
 body {
   font-family: Arial, sans-serif;
+}
+
+/* variables declared here - these are the colors for our pages, as well as the font stacks and sizes. */
+:root {
+  --black: #171321;
+  --dkblue: #0d314b;
+  --plum: #4b0d49;
+  --hotmag: #ff17e4;
+  --magenta: #e310cb;
+  --aqua: #86fbfb;
+  --white: #f7f8fa;
+  --font-size: 1.3rem;
+  --mono: "Oxygen mono", monospace;
+  --sans: Oxygen, sans-serif;
+}
+/* border box model: https://css-tricks.com/box-sizing/ */
+html {
+  box-sizing: border-box;
+}
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
 }
