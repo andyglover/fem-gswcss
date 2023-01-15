@@ -1,6 +1,4 @@
-body {
-  font-family: Arial, sans-serif;
-}
+@import url("https://fonts.googleapis.com/css2?family=Oxygen&family=Oxygen+Mono&display=swap");
 
 /* variables declared here - these are the colors for our pages, as well as the font stacks and sizes. */
 :root {
@@ -23,4 +21,27 @@ html {
 *::before,
 *::after {
   box-sizing: inherit;
+}
+body {
+  padding: 0;
+  margin: 0;
+  font-family: var(--sans);
+  background-color: var(--black);
+  color: var(--white);
+  font-size: var(--font-size);
+}
+
+h1,
+h2,
+h3 {
+  margin: 0;
+}
+
+a {
+  color: var(--magenta);
+}
+
+a:hover {
+  color: var(--hotmag);
+  text-decoration: none;
 }
