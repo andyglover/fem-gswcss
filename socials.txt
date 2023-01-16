@@ -1,6 +1,6 @@
 Social media links to include:
 
-twitter - andygloverdev
-linkedin
-github
-youtube - andygloverdev 
+twitter - https://twitter.com/andygloverdev
+linkedin https://www.linkedin.com/in/andygloverdev/
+github - https://github.com/andyglover/
+youtube - https://www.youtube.com/channel/UCW5h13j_XzbaIJoWeeFr3ug
