@@ -232,14 +232,27 @@ footer ul {
     grid-column: 1/6;
     grid-row: 1/2;
   }
+
   .text {
     grid-column: 5/11;
     grid-row: 1/2;
     order: 2;
     text-align: right;
   }
+
   #projects ul {
     justify-content: flex-end;
+  }
+
+  #projects article:nth-of-type(even) img {
+    grid-column: 5/11;
+  }
+  #projects article:nth-of-type(even) .text {
+    grid-column: 1/6;
+    text-align: left;
+  }
+  #projects article:nth-of-type(even) ul {
+    justify-content: flex-start;
   }
 }
 
