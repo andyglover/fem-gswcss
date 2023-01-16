@@ -104,7 +104,6 @@ nav ul {
 nav li:first-child {
   flex-basis: 100%;
   text-align: center;
-  border: 1px solid red;
 }
 nav a {
   color: var(--white);
